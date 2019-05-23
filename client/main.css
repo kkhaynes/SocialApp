@@ -45,7 +45,6 @@ body {
     border-color: #05fcb7;
 }
 
-
 .profileBtn {
 	background-color: transparent;
 	border: none;
@@ -53,3 +52,44 @@ body {
 	.modal-lg{
 		width: 800px;
 	}
+
+.modal-content {
+    position: relative;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #232e3a;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    color: #00ffb8;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    margin-left: 16px;
+    margin-top: 29px;
+}
+
+.deleteText {
+	font-family: 'lato';
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #95bbdf;
+    text-shadow: 0 1px 0 #ffdede;
+    opacity: .5;
+}

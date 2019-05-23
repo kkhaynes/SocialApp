@@ -53,17 +53,12 @@ Template.profiles.events({
 
    },
 
-  //  'click .js-profPic' (event, instance) {
-  //           console.log("You clicked Profile Picture");
-      
-		//       $('#exampleModal').on('show.bs.modal', function (event) {
-		//   // var button = $(event.relatedTarget) // Button that triggered the modal
-		//   var modal = $(this)
-		//   userDB.findOne('.modal-title').text('New message to ' + recipient)
-		//   userDB.findOne('.modal-body input').val(recipient)
-		// })
-  //  }
-
+  'click .viewUser' (event, instance) {
+ 
+		var uId = $(this)	
+		$('#profID').val(uId);
+		$('viewUserProfile img').attr('src',userDB.findOne)
+   }
 });
 
 Template.addprofile.events({
